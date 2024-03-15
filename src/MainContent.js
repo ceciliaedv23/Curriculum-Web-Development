@@ -14,8 +14,7 @@ function MainContent() {
         <div className="intro">
           <p>
             Här beskrivs de kurser som ingår i programmet Webbutveckling hos
-            Mittuniversitetet under läsperioden HT 2022 - VT 2024. Fler kurser
-            läggs till efterhand de läses.
+            Mittuniversitetet under läsperioden HT 2022 - VT 2024.
             <br />
             <br />
             Jag som skapare av webbplatsen heter

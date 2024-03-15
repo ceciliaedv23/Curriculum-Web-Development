@@ -163,9 +163,10 @@ const courses = [
     code: "DT191G",
     description:
       "Kursen behandlar utveckling av databas-drivna webbaserade system som är baserade på ASP.net core, MVC, Entity framework samt Blazor Server/Webassembly, formulerat i egenskapade webbplatser där nämnda system och tekniker används. I detta ingår programmering med C#.NET och Razor.",
-    donestatus: 0,
+    donestatus: 1,
     img: "./bilder/asp.jpg",
-    review: "Denna del uppdateras vid kursens slut",
+    review:
+      "Genom kursen har jag fått mycket mer erfarenhet av programmering med .NET och C#. Jag har fokuserat särskilt på ASP.NET MVC vilket jag tycker om för dess tydliga överblick över både frontend och backend samt smidiga arbetsprocess. Det vore roligt att skapa nya projekt genom denna teknik, jag behöver bara komma på en bra idé för vad exakt jag ska konstruera...",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/DT191G/",
   },
@@ -175,11 +176,24 @@ const courses = [
     code: "IG021G",
     description:
       "Syftet med kursen är att ge förståelse för affärsplanering och kommersialisering. I kursen ingår ett större grupparbete där en komplett affärsplan arbetas fram, utvärderas och presenteras. I detta ingår även opponering på kurskamraters affärsplaner. ",
-    donestatus: 0,
+    donestatus: 1,
     img: "./bilder/business.jpg",
-    review: "Denna del uppdateras vid kursens slut",
+    review:
+      "Vad jag tar med mig från den här kursen är viktiga aspekter man bör ha i åtanke vid uppstart av ett företag. Även om jag inte själv har tänkt att starta eget så kommer jag säkert komma i kontakt med startups som då bör ha gjort det jobb jag i kursen testat på, vilket kan hjälpa mig att bedöma deras seriositet och hur väl deras affärsidé skulle kunna tänkas fungera.",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/IG021G/",
+  },
+  {
+    key: "DT140G",
+    name: "Självständigt arbete",
+    code: "DT140G",
+    description:
+      "I denna kurs utförs ett självständigt arbete inom datateknik/programmering under ca 10 veckor. Arbetet utförs på en arbetsplats med verksamhet inom området och har koppling till nämnda verksamhet. En utförlig uppsats skrivs för arbetet vilken även presenteras och opponeras på.",
+    donestatus: 0,
+    img: "./bilder/individual.jpg",
+    review: "Denna text uppdateras vid kursens slut.",
+    syllable:
+      "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/DT140G/",
   },
 ];
 
