@@ -3,50 +3,42 @@
 import React from "react";
 
 function Course(props) {
-  // Funktionalitet för status för varje kurs
-  let statusText = "Genomförd";
-  if (props.course.donestatus === 0) {
-    statusText = "Pågående";
-  }
-
-  // Öppna och stäng varje kurs
-  function toggleCourse() {
-    let courseEl = document.getElementById(props.course.key);
-
-    // CSS kopplas in
-    let style = window.getComputedStyle(courseEl);
-
-    // Öppna om den tidigare var stängd, respektive motsatsen
-    if (style.display === "none") {
-      courseEl.style.display = "block";
-    } else {
-      courseEl.style.display = "none";
-    }
-  }
-
   return (
     // Struktur
-    <div className="courseSection">
-      <div className="course" onClick={toggleCourse}>
-        <h3>
+    <div className="max-w-md mb-0 lg:mb-6 px-8 lg:px-2 py-2">
+      <div className="course p-6 text-center rounded-lg mb-2">
+        <h3 className="font-bold text-2xl">
           {props.course.name} <br></br>
-          <span>Kurskod {props.course.code}</span>
+          <span className="span text-lg">Kurskod {props.course.code}</span>
         </h3>
       </div>
-      <div className="course-info" id={props.course.key}>
-        <img src={props.course.img} alt=""></img>
-        <div className="status">
-          <p>{statusText}</p>
-        </div>
-
-        <div className="desc">
-          <p>{props.course.description}</p>
-          <a href={props.course.syllable} target="_blank" rel="noreferrer">
-            Se aktuell kursplan
-          </a>
-        </div>
-        <div className="desc">
+      <div
+        className="bg-gray-300 p-4 shadow-md shadow-gray-500 rounded-lg"
+        id={props.course.key}
+      >
+        <img src={props.course.img} alt="" className="rounded-md"></img>
+        <br />
+        <div className="">
           <p>
+            <span className="font-semibold">Innehåll:</span> &nbsp;
+            {props.course.description}
+            <br />
+            <br />
+            Se aktuell&nbsp;
+            <a
+              className="italic font-semibold underline"
+              href={props.course.syllable}
+              target="_blank"
+              rel="noreferrer"
+            >
+              kursplan
+            </a>
+          </p>
+        </div>
+        <br />
+        <div className="pb-2">
+          <p>
+            <span className="font-semibold">Mina synpunkter:</span>{" "}
             <em>{props.course.review}</em>
           </p>
         </div>
