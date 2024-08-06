@@ -1,6 +1,10 @@
-# Curriculum/Lästa kurser
+# Webbplats om mina genomförda kurser
 
-En React-applikation som presenterar mina lästa kurser under Webbutvecklings-programmet samt personliga åsikter om dessa. 
-Sidan uppdateras efterhand fler kurser läses. Fokus låg på följande språk/format/tekniker: React (JSX, props).
+Denna webbplats är skapad med React och använder ramverkets grundläggande funktioner som JSX, props och hantering av state med `useState`-hooken.
 
-Applikationen är publicerad på adressen **http://ceciliaedv-kurser.netlify.app/**.
+Styling är implementerad med Tailwind CSS.
+
+På webbplatsen presenteras de kurser jag har läst inom programmet Webbutveckling vid Mittuniversitetet (HT 2022 – VT 2024). Här delar jag även med mig av mina personliga upplevelser av kurserna samt länkar till respektive kursplan.
+
+Besök gärna [ceciliaedv-kurser.netlify.app](http://ceciliaedv-kurser.netlify.app/) för att se webbplatsen live.
+
