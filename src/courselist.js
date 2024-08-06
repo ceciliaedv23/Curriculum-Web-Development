@@ -23,7 +23,7 @@ const courses = [
     donestatus: 1,
     img: "./bilder/jsimg.jpg",
     review:
-      "Jag var inte nybörjare när det gäller JavaScript utan hade vid denna kurs en bra uppfattning om mycket som gicks igenom. Det var bra att repetera olika delar och få lärarnas tips om det ena och det andra. Dock var användning av AJAX och webbtjänster något nytt, det var intressant och roligt att få använda extern data till olika programmeringsuppgifter, mer verklighetstroget och användbart än mindre problemlösningar.",
+      "I denna kurs fick jag repetera baskunskaper kring JavaScript och använda AJAX och webbtjänster. Det var intressant och roligt att få använda extern data eftersom det var mer verklighetsförankrat. Som slutprojekt skapade jag en radiolyssningstjänst via SR's öppna API (länk finns på min webbplats).",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=31961",
   },
@@ -32,7 +32,7 @@ const courses = [
     name: "Grafisk teknik för webb",
     code: "DT200G",
     description:
-      "Denna kurs behandlar skapande och bearbetning av bilder, grafik och video för användning på webbplatser. Detta inkluderar delar så som att välja rätt filformat, skapa eget material, optimera kvalitet på grafiska filer samt redigera och manipulera material på olika sätt. Bildbehandlingsprogrammet Photopea (liknande Photoshop) introduceras och används under kursen. ",
+      "Denna kurs behandlar skapande och bearbetning av bilder, grafik och video för användning på webbplatser. Detta inkluderar delar så som att välja rätt filformat, skapa eget material, optimera kvalitet på grafiska filer samt redigera och manipulera material på olika sätt. Bildbehandlingsprogrammet Photopea introduceras och används under kursen. ",
     donestatus: 1,
     img: "./bilder/grafik.jpg",
     review:
@@ -71,11 +71,11 @@ const courses = [
     name: "Webbutveckling II",
     code: "DT093G",
     description:
-      "Kursen syftar till att ge kunskaper i skapande av interaktiva webbplatser, databasanslutningar, dynamisk HTML och versionkontrollsystem som Git. Språken PHP och SQL används för att skapa webbplatser där data skapas, ändras och raderas genom formulär och dess formulärdata skickas via HTTP/GET/POST. Github introduceras och är från och med denna kurs en integrerad del i examinering av uppgifter och projekt.",
+      "Kursen syftar till att ge kunskaper i skapande av interaktiva webbplatser, databasanslutningar, dynamisk HTML och versionkontrollsystem som Git. Språken PHP och SQL används för att skapa webbplatser där data skapas, ändras och raderas genom formulär och dess formulärdata skickas via HTTP. Start av användning av Github.",
     donestatus: 1,
     img: "./bilder/php.jpg",
     review:
-      "Jag uppskattade denna kurs för möjligheten att gå djupare i ämnet webbutveckling och få kunskap att kunna skapa webbplatser med mer avancerad funktionalitet. Det var nyttigt att få väva ihop front-end med back-end samtidigt som man tar hänsyn till delar som att hålla datan säker och versionshantera sina filer. Dessa kunskaper ger mig fler alternativ för vad jag skapar i mina egna kod-projekt.   ",
+      "Jag uppskattade denna kurs för möjligheten att få sätta mig in i mer avancerad funktionalitet. Det var nyttigt att få väva ihop frontend med backend samtidigt som man tar hänsyn till säkerhetsaspekter och versionshantering. Som slutprojekt skapas en bloggportal med användarkonton och möjlighet till att hantera en egen blogg, där kursens tekniker kommer till användning (länk finns på min webbplats).",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=32284",
   },
@@ -101,7 +101,7 @@ const courses = [
     donestatus: 1,
     img: "./bilder/web3.jpg",
     review:
-      "I denna kurs fick jag stifta bekantskap med en rad nya tekniker och arbetssätt samt andra varianter av JavaScript, delar som jag vill inkorporera i framtida kurser och egna projekt. Det var klurigt men roligt att fördjupa användandet av webbtjänster, kombinera detta med objektorienterad programmering samt använda PHP och JavaScript tillsammans. Att använda mer EcmaScript och bli vanare vid TypeScript är något jag vill fila på för framtiden.  ",
+      "I denna kurs fick jag stifta bekantskap med en rad nya tekniker och arbetssätt samt andra varianter av JavaScript, delar som jag vill inkorporera i framtida kurser och egna projekt. Det var klurigt men roligt att fördjupa användandet av webbtjänster, kombinera detta med objektorienterad programmering samt använda PHP och JavaScript tillsammans. Att använda mer EcmaScript och bli vanare vid TypeScript är något jag vill fila på för framtiden. Som slutprojekt skapades en företagswebbplats där kursens tekniker användes (länk finns på min webbplats). ",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=32441",
   },
@@ -166,7 +166,7 @@ const courses = [
     donestatus: 1,
     img: "./bilder/asp.jpg",
     review:
-      "Genom kursen har jag fått mycket mer erfarenhet av programmering med .NET och C#. Jag har fokuserat särskilt på ASP.NET MVC vilket jag tycker om för dess tydliga överblick över både frontend och backend samt smidiga arbetsprocess. Det vore roligt att skapa nya projekt genom denna teknik, jag behöver bara komma på en bra idé för vad exakt jag ska konstruera...",
+      "Genom kursen har jag fått mycket mer erfarenhet av programmering med .NET och C#. Jag har fokuserat särskilt på ASP.NET MVC vilket jag tycker om för dess tydliga överblick över både frontend och backend samt smidiga arbetsprocess. Som slutprojekt i kursen skapade jag en företagswebbplats för en frisörsalong där nämnda tekniker användes (länk finns på min webbplats).",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/DT191G/",
   },
@@ -189,9 +189,9 @@ const courses = [
     code: "DT140G",
     description:
       "I denna kurs utförs ett självständigt arbete inom datateknik/programmering under ca 10 veckor. Arbetet utförs på en arbetsplats med verksamhet inom området och har koppling till nämnda verksamhet. En utförlig uppsats skrivs för arbetet vilken även presenteras och opponeras på.",
-    donestatus: 0,
+    donestatus: 1,
     img: "./bilder/individual.jpg",
-    review: "Denna text uppdateras vid kursens slut.",
+    review: "Denna text uppdateras vid ett senare tillfälle.",
     syllable:
       "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/DT140G/",
   },
